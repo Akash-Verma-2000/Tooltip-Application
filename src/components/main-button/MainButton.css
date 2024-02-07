@@ -1,0 +1,36 @@
+.button {
+    background-color: red;
+    color: white;
+    padding: 20px 10px;
+    border-radius: 10%;
+    border: 2 px solid black;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.button:hover {
+    background-color: rgb(122, 0, 0);
+}
+
+.upperRow,
+.lowerRow,
+.middleRow {
+    background-color: rgb(146, 192, 78);
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.middleRow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.col1,
+.col3 {
+    width: 100px;
+    height: 38px;
+    background-color: rgb(146, 192, 78);
+}
